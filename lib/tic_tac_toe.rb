@@ -83,11 +83,13 @@ end
   end
   
   def draw?
-   if full? && !won?
-     return true 
-   elsif won?
-   return false 
- end
- end
+    if full? && !won?
+      return true 
+    elsif won?
+    return false 
+   end
+  end
+ 
+ 
  
 end
