@@ -82,5 +82,6 @@ end
     @board.all?{|elem| elem == "X" || elem == "O" }
   end
   
+  
  
 end
