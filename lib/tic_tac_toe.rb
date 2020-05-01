@@ -90,7 +90,13 @@ end
    end
   end
  
- 
+  def over?
+   if won? || full? || draw?
+     return true 
+   else 
+     false 
+   end 
+ end
  
  
 end
