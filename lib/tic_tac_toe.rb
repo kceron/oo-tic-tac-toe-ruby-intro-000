@@ -98,7 +98,7 @@ end
    end 
   end
   
-   def winner(board)
+   def winner
    WIN_COMBINATIONS.each do |win_combination|
       win_index_0 = win_combination[0]
       win_index_1 = win_combination[1]
