@@ -82,6 +82,12 @@ end
     @board.all?{|elem| elem == "X" || elem == "O" }
   end
   
-  
+  def draw?(board)
+   if full? && !won?
+     return true 
+   elsif won?
+   return false 
+ end
+ end
  
 end
